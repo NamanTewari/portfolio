@@ -721,3 +721,171 @@ footer{
   display:flex;
   gap:1rem;
 }
+
+
+
+/*  Responsive Styles */
+
+
+@media (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+
+  .nav-items {
+    padding: 0 2em;
+    gap: 1.5rem;
+  }
+
+  .hero-section {
+    flex-direction: column;
+    gap: 3rem;
+    padding-bottom: 5rem;
+  }
+
+  .hero-section-right .user-image img {
+    width: 350px;
+  }
+
+  .project-skills-container {
+    width: 100%;
+  }
+
+  .skills-container {
+    flex-direction: column;
+    padding: 3rem 2rem;
+    margin: 5rem auto;
+  }
+
+  .skill-container-left,
+  .skill-container-right {
+    width: 100%;
+  }
+
+  .skill-fade-text {
+    display: none;
+  }
+
+  .form {
+    width: 90%;
+    margin: 2rem;
+  }
+
+  footer {
+    padding: 3rem 2rem;
+  }
+
+  .footer-wrapper {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo-text {
+    font-size: 28px;
+  }
+
+  .nav-items {
+    gap: 1rem;
+    padding: 0 1em;
+  }
+
+  .hero-section-heading {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .hero-section-sub-heading {
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+  }
+
+  .hero-section-description {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .user-image img {
+    width: 280px;
+  }
+
+  .project-card {
+    height: 250px;
+  }
+
+  .project-heading {
+    font-size: 28px;
+    line-height: normal;
+  }
+
+  .project-subHeading {
+    font-size: 14px;
+  }
+
+  .skills-logo {
+    width: 60px;
+  }
+
+  .skill-heading {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .caps {
+    font-size: 60px;
+  }
+
+  .contactus-heading {
+    font-size: 3em;
+    text-align: center;
+  }
+
+  .contactus-sub-heading {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .footer-faded-text {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-items {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .hero-section-description {
+    font-size: 14px;
+  }
+
+  .btn-pink {
+    padding: 0.6rem 1.5rem;
+    font-size: 16px;
+  }
+
+  .formfield {
+    padding: 0 1rem;
+    font-size: 16px;
+  }
+
+  .footer-wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .link-wrapper {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .icon-wrapper {
+    justify-content: center;
+  }
+}
