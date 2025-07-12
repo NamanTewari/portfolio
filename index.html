@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website - Naman Tewari</title>
+    <link rel="stylesheet" href= "styles.css">
+</head>
+<body>
+    
+    <div id="wrapper">
+
+        <div class="container">
+            <div class="navbar">
+                
+                <div class="logo-container">
+                    <img src="./images/userAsset/NavLogo.jpg" class="logo">
+                    <div class="logo-text">aman Tewari</div>
+                </div>
+                
+                <div class="nav-items">
+                  <div><a href="NamanTewari.pdf" target="_blank">Resume</a></div>
+                  <div><a href="https://www.geeksforgeeks.org/user/namantewari2517/">GFG</a></div>
+                  <div><a href="https://www.linkedin.com/in/naman-tewari-4b6b20219/">Linked-In</a></div>
+                    <div><a href="#projects">Projects</a></div>
+                    <div><a href="#skills">Skills</a></div>
+                    <div><a href="#contactme">Contact Me</a></div>
+                    
+                </div>
+
+            </div>
+
+            <div class="hero-section">
+
+                <div class="faded-text">Naman Tewari</div>
+    
+                <div class="hero-section-left">
+                    <div class="hero-section-heading">Hi! Naman Tewari </div>
+                    
+                    <div class="hero-section-heading hero-section-sub-heading">
+                        I am a <span class="role"></span>
+                    </div>
+    
+                    <div class="hero-section-description">
+                        I’m a software developer and here is my portfolio website. Here you’ll
+                        learn about my journey as a software developer.
+                    </div>
+                    
+                    <div class="btn-pink" id="btn" onclick="openGmail()">Hire me</div>
+    
+                </div>
+    
+                <div class="hero-section-right">
+                    <div class="absolute icons icon-dots">
+                        <img src="./images/userAsset/dots.png" alt="" />
+                      </div>
+                      <div class="absolute icons icon-cube">
+                        <img src="./images/userAsset/cube.png" alt="" />
+                      </div>
+                      <div class="absolute icons icon-circle">
+                        <img src="./images/userAsset/circle.png" alt="" />
+                      </div>
+                      <div class="absolute icons icon-zigzag">
+                        <img src="./images/userAsset/zigzags.png" alt="" />
+                      </div>
+                      <div class="absolute icons icon-plus">
+                        <img src="./images/userAsset/plus.png" alt="" />
+                      </div>
+                      <div class="user-image">
+                        <img src="./images/userAsset/UserImage.jpg" alt="" />
+                      </div>
+                </div>
+    
+            </div>
+        </div>
+
+        <div class="project-section" id="projects">
+            <h2 class="page-header">Projects</h2>
+
+            <div class="project-container">
+                <div class="project-card" id="project1">
+                    <div class="project-number project-number-right">01</div>
+                    <div class="project-content project-content-left">
+
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+                            <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+                            <img class="project-skill" src="./images/stack/python.png" alt = " "/>
+                            <img class="project-skill" src="./images/stack/Flask.png" alt="" />
+                            <img class="project-skill" src="./images/stack/NextJsCircle.png" alt="" />
+                            <img class="project-skill" src="./images/stack/deep-learning.png" alt="" />
+                            
+                        </div>
+
+                        <h2 class="project-heading">Chicken-Disease-Detection using CNN</h2>
+
+                        <p class="project-subHeading">Trained a CNN Model to Classify Chicken Disease with high accuracy.
+                          Built a responsive Flask web interface where user can upload image for real time detection.
+                        </p>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project" onclick="window.open('https://github.com/NamanTewari/Chicken_disease_end_to_end')"  >Read More</button>
+                            <a href="https://github.com/NamanTewari/Chicken_disease_end_to_end">
+                            <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="">
+                            <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" id="project2">
+                  <div class="project-number project-number-left">02</div>
+                  <div class="project-content project-content-right">
+                    <div class="project-skill-container">
+                      <img class="project-skill" src="./images/stack/python.png" alt="" />
+                      <img class="project-skill" src="./images/stack/Flask.png" alt="" />
+                      <img class="project-skill" src="./images/stack/streamlit.png" alt="" />
+                      <img class="project-skill" src="./images/stack/deep-learning.png" alt="" />
+                      <img class="project-skill" src="./images/stack/mysql_PNG22.png" alt="" />
+                      <img class="project-skill" src="./images/stack/langchain.png" alt="" />
+                      
+                    </div>
+                    <h2 class="project-heading">Retail-Assistant <br> By LangChain </h2>
+                    <p class="project-sub-heading">
+                      Designed and developed a retail assistant web app
+                      capable of answering <br> natural Language
+                      about Tshirt Store sales.
+                      Built using LangChain , Streamlit 
+                     <br> ,Huggingface , GooglePalm.
+                    </p>
+                    <div class="btn-group">
+                      <button class="btn-pink btn-project">Read More</button>
+                      <a href="">
+                        <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                      </a>
+                      <a href="">
+                        <i title="Live Link" class="fa-solid fa-link icon"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="project-card" id="project3">
+                  <div class="project-number project-number-right">03</div>
+                  <div class="project-content project-content-left">
+                    <div class="project-skill-container">
+                      <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+                      <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+                      <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+                      
+                      <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
+                      
+                    </div>
+          
+                    <h2 class="project-heading">RazorPayFrontend</h2>
+                    <p class="project-sub-heading">
+                      Developed a responsive and visually accurate
+                      clone of Razorpay Homepage using CSS.
+                      Emulated real-world design standards,
+                      maintaining typography, spacing and with original.
+                      </p>
+                    <p>  HTML , CSS , TAILWIND , JAVASCRIPT. 
+                    </p>
+                    <div class="btn-group">
+                      <button class="btn-pink btn-project"onclick="window.open('https://github.com/NamanTewari/Tailwind-Frontend')" >Read More</button>
+                      <a href="">
+                        <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                      </a>
+                      <a href="">
+                        <i title="Live Link" class="fa-solid fa-link icon"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="project-card" id="project4">
+                  <div class="project-number project-number-left">04</div>
+                  <div class="project-content project-content-right">
+                    <div class="project-skill-container">
+                      <img class="project-skill" src="./images/stack/python.png" alt="" />
+                      <img class="project-skill" src="./images/stack/Flask.png" alt="" />
+                      <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+                      <img class="project-skill" src="./images/stack/HTML.png" alt="">
+                      <img class="project-skill" src="./images/stack/Bootstrap.svg" alt="">
+                    </div>
+                    <h2 class="project-heading">Spelling and 
+                       <br>Grammar Checker
+                    </h2>
+                    <p class="project-sub-heading">
+                      Built a Python-based Grammar <br>
+                      and spell-check tool
+                      using TextBlob and LanguageTool 
+                      Developed <br> HTML/CSS interface with Flask
+
+                    </p>
+                    <p>Python , HTML , Flask , Textblob , LanguageTool</p>
+                    <div class="btn-group">
+                      <button class="btn-pink btn-project" onclick = "window.open('https://github.com/NamanTewari/Spelling-and-Grammar-Checker-')">Read More</button>
+                      <a href="">
+                        <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                      </a>
+                      <a href="">
+                        <i title="Live Link" class="fa-solid fa-link icon"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                
+
+
+               
+
+
+
+
+            </div>
+
+        </div>
+        
+        <div id="skills" class="container skills-container ">
+          <div class="skill-fade-text">Skills</div>
+
+          <div class="skill-container-left">
+            <h2 class="skill-heading">
+              <span class="caps">M</span>e and
+              <br />
+              MyTech Stack
+            </h2>
+
+            <div class="skill-subHeading">
+              <p>
+                Hi, I'm Naman Tewari, a passionate and driven developer with a strong foundation in Data Structures, Algorithms, Machine Learning, and Front-End Development. I recently completed my graduation from Graphic Era Hill University, where I honed my technical skills and built a solid understanding of computer science fundamentals.
+
+I thrive on solving real-world problems through clean code and scalable solutions. Whether it's building responsive user interfaces, optimizing backend performance, or exploring the power of deep learning, I love every part of the development journey.
+
+I'm always eager to learn, collaborate, and take on new challenges that push my boundaries and help me grow as a developer.
+              </p>
+              <p>
+                I actively participate in competitive programming and have consistently refined my skills through platforms like CodeChef, where I’ve achieved a Global Rank of 259 in CodeChef Starters 174. I enjoy tackling challenging algorithmic problems and continuously strive to improve my coding efficiency and logic.
+
+From crafting responsive web interfaces to diving deep into deep learning projects, I bring both creativity and structure to everything I build. I'm always open to exciting tech opportunities that allow me to grow and contribute meaningfully
+              </p>
+             
+            </div>
+          </div>
+
+          <div class="skill-container-right">
+            <img src="./images/userAsset/blob vector.png" class="blob-style" alt="" />
+
+            <img src="./images/stack/HTML.png" alt="" class="skills-logo" />
+            <img src="./images/stack/CSS.png" alt="" class="skills-logo" />
+            <img src="./images/stack/Javascript.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/React.png" alt="" class="skills-logo" />
+            <img src="./images/stack/Tailwind.png" alt="" class="skills-logo" />
+            <img src="./images/stack/python.png" alt="" class="skills-logo" />
+            <img src="./images/stack/Flask.png" alt="" class="skills-logo" />
+            <img src="./images/stack/Github.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/Bootstrap.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/langchain.png" alt="" class="skills-logo" />
+            <img src="./images/stack/mysql_PNG22.png" alt="" class="skills-logo" />
+            <img src="./images/stack/Git.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/deep-learning.png" alt="" class="skills-logo" />
+            <img src="./images/stack/streamlit.png" alt="" class="skills-logo" />
+            <img src="./images/stack/c.png" alt="" class="skills-logo" />
+            <img src="./images/stack/cPp.png" alt="" class="skills-logo">
+
+          </div>
+        
+        
+        
+        </div>
+
+        <div class="contactus-form-container" id="contactme">
+          <div class="container">
+
+            <h1 class="contactus-heading">Contact me</h1>
+
+            <h3 class="contactus-sub-heading">
+              Questions, thoughts, or just want to say hello?
+            </h3>
+
+
+            <div class="contactus-form-container"  > 
+              <form class="form" action="https://formsubmit.co/namantewari2517@gmail.com" method = "POST">
+
+                    <input type="hidden" name="_subject" value="New Contact from Portfolio!">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_captcha" value="false">
+
+                <div class="formfield-container">
+                  <input class="formfield" 
+                  type="text" 
+                  name="name" 
+                  id="" 
+                  placeholder="Enter your name" />
+
+                  <input class="formfield" 
+                  type="email" 
+                  name="email" 
+                  id="" 
+                  placeholder="Enter your email address" />
+
+                  <input class="formfield" 
+                  type="text" 
+                  name="subject" 
+                  id="" 
+                  placeholder="Enter your subject" />
+
+                  <textarea name="message" 
+                  id="" cols="30" rows="10" 
+                  class="formfield formfield-textarea"
+                  placeholder="Enter your message"></textarea>
+
+                </div>
+                
+                <div>
+                  <button type="submit" class="btn-pink" id="submit-btn">
+                    Send Message<i class="submit-icon fa-solid fa-paper-plane"></i>
+                  </button>
+                </div>
+
+              </form>
+
+            </div>
+
+
+          </div>
+        </div>
+
+        <footer>
+          <div class="container">
+            <div class="footer-wrapper">
+              <div class="footer-faded-text">Naman Tewari</div>
+
+              <div class="link-wrapper">
+                <div>
+                  <a href="#projects">Projects</a>
+                </div>
+                <div>
+                  <a href="#skills">Skills</a>
+                </div>
+                <div>
+                  <a href="#contactme">Contact Me</a>
+                </div>
+              </div>
+
+              <div class="icon-wrapper">
+                <i class="fa-brands fa-linkedin icon"></i>
+                <i class="fa-brands fa-github icon"></i>
+                <i class="fa-brands fa-twitter icon"></i>
+                <i class="fa-brands fa-instagram icon"></i>
+                <i class="fa-regular fa-envelope icon"></i>
+              </div>
+
+            </div>
+          </div>
+        </footer>
+
+    </div>
+    <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+  <script>
+    function openGmail() {
+    const email = "namantewari2517@gmail.com";
+    const subject = "Contact from Portfolio";
+    const body = "Hi Naman,I'm interested in connecting with you.";
+    
+    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}&body=${body}`;
+    window.open(gmailUrl, "_blank");
+  }
+
+    var typeData = new Typed(".role", {
+      strings: [
+        "Machine-Learning Enthusiast",
+        "Deep-Learning",
+        "Front-End Developer",
+        "Problem Solver",
+        "Coder",
+      ],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 95,
+      backDelay: 500,
+    });
+  </script>
+  
+
+</body>
+</html>
